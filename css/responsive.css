@@ -1,0 +1,197 @@
+/*mobile portrait*/
+@media screen
+and ( max-width: 1025px )
+and ( orientation: portrait ) {
+  .content-container {
+    width: 100%;
+  }
+}
+
+@media screen
+and ( min-width: 769px )
+and ( max-width: 1025px )
+and ( orientation: portrait ) {
+  #input {
+    width: 50%;
+  }
+
+  .todo-container,
+  .completed-container {
+    width: 55.5%;
+  }
+}
+
+@media screen
+and ( min-width: 541px )
+and ( max-width: 768px )
+and ( orientation: portrait ) {
+  .todo-container,
+  .completed-container {
+    width: 65.5%;
+  }
+}
+
+@media screen
+and ( min-width: 411px )
+and ( max-width: 539px )
+and ( orientation: portrait ) {
+  #input {
+    width: 76%;
+  }
+}
+
+@media screen
+and ( min-width: 377px )
+and ( max-width: 539px )
+and ( orientation: portrait ) {
+  .todo-container,
+  .completed-container {
+    width: 90%;
+  }
+}
+
+@media screen
+and ( min-width: 281px )
+and ( max-width: 376px )
+and ( orientation: portrait ) {
+  #input {
+    width: 81.5%;
+  }
+
+  .todo-container,
+  .completed-container {
+    width: 97%;
+  }
+}
+
+@media screen
+and ( min-width: 281px )
+and ( max-width: 360px )
+and ( orientation: portrait ) {
+  #input {
+    width: 81%;
+  }
+}
+
+@media screen
+and ( max-width: 320px )
+and ( orientation: portrait ) {
+  #input {
+    float: left;
+    margin: 0;
+    width: 79%;
+  }
+
+  #add-btn {
+    left: -0.25rem;
+    top: 0;
+  }
+
+  .todo-container,
+  .completed-container {
+    margin: 0;
+  }
+}
+
+@media screen
+and ( max-width: 280px )
+and ( orientation: portrait ) {
+  .todo-container,
+  .completed-container {
+    width: 97.5%;
+  }
+}
+
+/*mobile landscape*/
+@media screen
+and ( max-width: 1370px )
+and ( orientation: landscape ) {
+  .content-container {
+    width: 100%;
+  }
+
+  .author {
+    z-index: -1;
+  }
+}
+
+@media screen
+and ( min-width: 1025px )
+and ( max-width: 1370px )
+and ( orientation: landscape ) {
+  #input {
+    width: 30%;
+  }
+
+  .todo-container,
+  .completed-container {
+    width: 34%;
+  }
+}
+
+@media screen
+and ( min-width: 825px )
+and ( max-width: 1024px )
+and ( orientation: landscape ) {
+  #input {
+    width: 45%;
+  }
+
+  .todo-container,
+  .completed-container {
+    width: 50.5%;
+  }
+}
+
+@media screen
+and ( max-width: 824px )
+and ( orientation: landscape ) {
+  .todo-container,
+  .completed-container {
+    width: 65%;
+  }
+}
+
+@media screen
+and ( max-width: 736px )
+and ( orientation: landscape ) {
+  body {
+    padding-top: 2.5rem;
+  }
+
+  .todo-container,
+  .completed-container {
+    width: 65.8%;
+  }
+}
+
+@media screen
+and ( max-width: 668px )
+and ( orientation: landscape ) {
+  .todo-container,
+  .completed-container {
+    width: 66.5%;
+  }
+}
+
+@media screen
+and ( max-width: 654px )
+and ( orientation: landscape ) {
+  body {
+    padding-top: 1.5rem;
+  }
+
+  .todo-container,
+  .completed-container {
+    width: 67%;
+  }
+}
+
+@media screen
+and ( max-width: 568px )
+and ( orientation: landscape ) {
+  .todo-container,
+  .completed-container {
+    width: 68%;
+  }
+}
