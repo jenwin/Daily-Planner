@@ -33,10 +33,15 @@ and ( orientation: portrait ) {
 
 @media screen
 and ( min-width: 411px )
-and ( max-width: 539px )
+and ( max-width: 540px )
 and ( orientation: portrait ) {
   #input {
     width: 76%;
+  }
+
+  .todo-container,
+  .completed-container {
+    width: 86.4%;
   }
 }
 
