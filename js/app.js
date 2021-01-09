@@ -53,7 +53,7 @@ const completedDiv = document.createElement('div');
 const completedPara = document.createElement('p');
 const completedUl = document.createElement('ul');
 
-//adding todos to the todo list
+//adding a todo to the todo list
 document.getElementById('add-btn').addEventListener('click', addTodo);
 function addTodo() {
   //user input, list, checkbox
@@ -64,7 +64,7 @@ function addTodo() {
   ul.appendChild(list);
   list.appendChild(checkBox);
 
-  //new todos
+  //new todo
   const todoDiv = document.createElement('div');
   const newTodo = document.createTextNode(input);
   list.appendChild(todoDiv);
@@ -89,13 +89,11 @@ function addTodo() {
   todoDiv.setAttribute('id', itemId2);
   todoDiv.setAttribute('onclick', 'strikeTodo("'+itemId2+'")');
 
-  //completed
+  //completed todo
   itemId3+=1;
   checkBox.setAttribute('id', itemId1);
   checkBox.setAttribute('class', itemId3);
   checkBox.setAttribute('onclick', 'completedTodo("'+itemId1+'", "'+itemId3+'")');
-
-  //completed todos
   divContentContainer.appendChild(completedDiv);
   completedDiv.prepend(completedPara);
   completedDiv.appendChild(completedUl);
@@ -105,7 +103,7 @@ function addTodo() {
   completedUl.classList.add('completed-ul');
 }
 
-//delete todos
+//delete a todo
 function deleteTodo(itemId1) {
   itemList = document.getElementById(itemId1);
   const completed = itemList.parentElement.classList.contains('todos-list');
@@ -122,7 +120,7 @@ function strikeTodo(itemId2) {
   itemText.classList.toggle('strike');
 }
 
-//completed todos
+//completed todo
 function completedTodo(itemId1, itemId3) {
   itemList = document.getElementById(itemId1);
   const itemInput = document.getElementsByClassName(itemId3)[0];
