@@ -77,8 +77,7 @@ function addTodo() {
   itemId1+=1;
   list.setAttribute('id', itemId1);
   const deleteBtn = document.createElement('button');
-  const btnLabel = document.createTextNode("x");
-  deleteBtn.appendChild(btnLabel);
+  deleteBtn.innerHTML = '<i class="fas fa-trash-alt"></i>';
   deleteBtn.classList.add('delete-todo');
   deleteBtn.setAttribute('onclick', 'deleteTodo("'+itemId1+'")');
   deleteBtn.setAttribute('aria-label', 'delete');
