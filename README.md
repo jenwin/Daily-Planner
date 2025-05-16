@@ -6,8 +6,8 @@ My version of the todo list in vanilla js.
 - CSS3
 - HTML5
 
-## How to Start
-- Clone or Download
+## Live Demo
+[https://jenwin.github.io/Daily-Planner](https://jenwin.github.io/Daily-Planner/)
 
 ## License
 GNU General Public License v3.0
