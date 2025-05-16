@@ -3,7 +3,6 @@ My version of the todo list in vanilla js.
 
 ## Technologies 
 - JavaScript
-- JQuery
 - CSS3
 - HTML5
 
