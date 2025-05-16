@@ -1,6 +1,12 @@
 # Daily Planner
 My version of the todo list in vanilla js.
 
+## Technologies 
+- JavaScript
+- JQuery
+- CSS3
+- HTML5
+
 ## How to Start
 - Clone or Download
 
