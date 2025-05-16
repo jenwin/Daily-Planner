@@ -1,4 +1,4 @@
-# todo-list
+# Daily Planner
 My version of the todo list in vanilla js.
 
 ## How to Start
